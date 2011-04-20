@@ -1,12 +1,12 @@
 === Plugin Name ===
 Contributors: ramoonus
 Donate link: http://www.ramoonus.nl
-Tags: jquery, jquery mobile, mobile, javascript
+Tags: html5, html, javascript, ie, internet explorer
 Requires at least: 3.0.0
 Tested up to: 3.2
 Stable tag: 1.0.0
 
-description
+This plugin adds the HTML5shiv Javascript library with IE Print Protector to your WordPress installation.
 == Description ==
 This plugin adds the HTML5shiv Javascript library with IE Print Protector to your WordPress installation.
 
