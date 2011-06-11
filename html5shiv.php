@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: HTML5shiv
-Plugin URI: http://www.ramoonus.nl
+Plugin URI: http://www.ramoonus.nl/wordpress/html5shiv/
 Description: The latest HTML5 JavaScript shiv for IE to recognise and style the HTML5 elements. 
 Version: 1.0.1
 Author: Ramoonus
-Author URI: http://www.ramoonus.nl/wordpress/html5shiv/
+Author URI: http://www.ramoonus.nl/
 */
 // create function
 function rw_html5shiv() {
