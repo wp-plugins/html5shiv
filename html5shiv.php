@@ -3,15 +3,25 @@
 Plugin Name: HTML5shiv
 Plugin URI: http://www.ramoonus.nl/wordpress/html5shiv/
 Description: The latest HTML5 JavaScript shiv for IE to recognise and style the HTML5 elements. 
-Version: 1.0.1
+Version: 3.0
 Author: Ramoonus
 Author URI: http://www.ramoonus.nl/
 */
-// create function
+
 function rw_html5shiv() {
-	echo '<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->'; 
-} 
-// now load this stuff in the header
-if(!function_exists("wp_resume_header") ) // if WP Resume is NOT found
-{ add_action('wp_head', 'rw_html5shiv'); }
+		wp_deregister_script('html5shiv'); // deregister
+		wp_enqueue_script('html5shiv', plugins_url('/js/html5shiv.js', __FILE__), false, '3');
+
+   		if(!is_admin()) { // don`t use in dashboard
+			global $is_IE;  // For Internet Explorer
+			if($is_IE) {
+				wp_enqueue_script('html5shiv');
+      		}
+    	}
+}
+
+// if WP Resume is NOT found
+if(!function_exists("wp_resume_header") ) {
+	add_action('wp_print_scripts', 'rw_html5shiv');
+}
 ?>
