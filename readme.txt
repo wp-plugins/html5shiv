@@ -3,8 +3,8 @@ Contributors: Ramoonus
 Donate link: http://www.ramoonus.nl/donate/
 Tags: html5, html, javascript, ie, internet explorer, html5shiv
 Requires at least: 3.0
-Tested up to: 3.3
-Stable tag: 3.0
+Tested up to: 3.3.1
+Stable tag: 3.3.0
 
 This plugin adds the HTML5shiv Javascript library with IE Print Protector to your WordPress installation.
 == Description ==
@@ -27,10 +27,23 @@ Its recommended to flush the cache after upgrading.
 Not relevant.
 
 == Changelog ==
+= 3.3.0 =
+* HTML5shiv version 3.3.0
+* Unreleased
+
+= 3.1 =
+* HTML5shiv version 3.1
+* Unreleased
+
+= 3.1 =
+* HTML5shiv version 3.1
+* Reworked the code
+* Unreleased
+
 = 3.0 =
 * Reworked the code ( http://themeforest.net/forums/thread/adding-scripts-to-wordpress-conditionally/53635 )
 * Readme updated
-* Based on html5shiv version 3, 13-01-2012
+* Based on html5shiv version 3.0, 13-01-2012
 
 = 1.0.1 =
 * Fixes double javascript loading with WP Resume
