@@ -4,29 +4,41 @@ Donate link: http://www.ramoonus.nl/donate/
 Tags: html5, html, javascript, ie, internet explorer, html5shiv
 Requires at least: 3.0
 Tested up to: 3.3.1
-Stable tag: 3.3.0
+Stable tag: 3.4
 
-This plugin adds the HTML5shiv Javascript library with IE Print Protector to your WordPress installation.
+This script is the defacto way to enable use of HTML5 sectioning elements in legacy Internet Explorer.
+
 == Description ==
-This plugin adds the HTML5shiv Javascript library with IE Print Protector to your WordPress installation.
 
-Internet Explorer will not recognize all HTML5 elements. Unlike Chrome, Firefox, Opera, and the rest of the browser world who will gladly assume the element is acceptable, and render / CSS just like any other element — Internet Explorer ignores them. If you used tags on your site, Internet Explorer (yes, even 8 ) will just ignore the existence of the code.
- 
-HTML5 Shiv (by remysharp) takes advantage of the Internet Explorer rendering engine's ability to handle these elements only after they have been inserted into the DOM via document.createElement — and works well.
+`github.com/afarkas/html5shiv` is the home of the development of The HTML5 Shiv. This script is the defacto way to enable use of HTML5 sectioning elements in legacy Internet Explorer, as well as default HTML5 styling in Internet Explorer 6 - 9, Safari 4.x (and iPhone 3.x), and Firefox 3.x.
+
+For the full story of the Shiv and all people involved, read [The Story of the HTML5 Shiv](http://paulirish.com/2011/the-history-of-the-html5-shiv/).
+
+The shiv is now maintained by Alexander Farkas, Jonathan Neal, and Paul Irish, with many contributions from John-David Dalton.
+
+The shiv is officially distributed by Modernizr, and the two google code projects html5shiv and html5shim (maintained by Remy Sharp).
+
 == Installation ==
 1. Upload `html5shiv/` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions == 
-None at this moment.
+= How do I enable this  plugin? =
+* Just like any other plugin. Just enable through the Dashboard and you`re done!
+
+= Does it work with caching plugins? =
+* No issues have been reported.
+
 
 == Upgrade Notice == 
-Its recommended to flush the cache after upgrading.
-
-== Screenshots ==
-Not relevant.
+= 3.4 =
+* HTML5shiv version 3.4
 
 == Changelog ==
+= 3.4 =
+* HTML5shiv version 3.4
+* Readme improvement
+
 = 3.3.0 =
 * HTML5shiv version 3.3.0
 * Unreleased
