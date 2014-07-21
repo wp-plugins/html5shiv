@@ -1,10 +1,10 @@
 === HTML5shiv for WordPress ===
 Contributors: Ramoonus
 Donate link: http://www.ramoonus.nl/donate/
-Tags: html5, html, javascript, ie, internet explorer, html5shiv
+Tags: html5, html, javascript, ie, internet explorer, html5shiv, legacy
 Requires at least: 3.0
-Tested up to: 3.6
-Stable tag: 3.6.2
+Tested up to: 3.9.1
+Stable tag: 3.7.2
 
 This script is the defacto way to enable use of HTML5 sectioning elements in legacy Internet Explorer.
 
@@ -22,6 +22,11 @@ The HTML5 Shiv enables use of HTML5 sectioning elements in legacy Internet Explo
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Changelog ==
+= 3.6.2 =
+* HTML5shiv version 3.7.2
+* Code Improvement
+* Readme Improvement
+
 = 3.6.2 =
 * HTML5shiv version 3.6.2
 * Code Improvement
