@@ -2,8 +2,8 @@
 Contributors: Ramoonus
 Donate link: http://www.ramoonus.nl/donate/
 Tags: html5, html, javascript, ie, internet explorer, html5shiv, legacy
-Requires at least: 3.0
-Tested up to: 3.9.1
+Requires at least: 3.9
+Tested up to: 4.1
 Stable tag: 3.7.2
 
 This script is the defacto way to enable use of HTML5 sectioning elements in legacy Internet Explorer.
