@@ -18,4 +18,5 @@ function rw_html5shiv() {
 		wp_deregister_script('html5shiv-printshiv'); // deregister
 		wp_enqueue_script('html5shiv-printshiv', plugins_url('/js/html5shiv-printshiv.min.js', __FILE__), false, '3.7.2');
 }
+add_action( 'wp_enqueue_scripts', 'rw_html5shiv' );
 ?>
